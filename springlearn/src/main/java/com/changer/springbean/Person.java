@@ -4,6 +4,13 @@ public class Person {
 	private String name;
 	private int age;
 	private String gender;
+	
+	
+	public Person() {
+		super();
+		// TODO Auto-generated constructor stub
+		System.out.println("Person构造函数被调用");
+	}
 	public String getName() {
 		return name;
 	}
